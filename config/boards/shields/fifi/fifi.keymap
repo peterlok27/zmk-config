@@ -4,7 +4,7 @@
 #define DEFAULT 0
 #define NUM   1
 #define SYM   2
-#define NAV   3 LG(1)
+#define NAV   3 
 / {
         keymap {
                 compatible = "zmk,keymap";
