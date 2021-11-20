@@ -1,5 +1,5 @@
-config SHIELD_MY_BOARD_LEFT
+config SHIELD_FIFI_LEFT
     def_bool $(shields_list_contains,fifi_left)
 
-config SHIELD_MY_BOARD_RIGHT
+config SHIELD_FIFI_RIGHT
     def_bool $(shields_list_contains,fifi_right)

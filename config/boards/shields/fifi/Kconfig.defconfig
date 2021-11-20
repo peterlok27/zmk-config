@@ -1,14 +1,14 @@
-if SHIELD_MY_BOARD_LEFT
+if SHIELD_FIFI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "sunkbd"
+    default "skbd"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+if SHIELD_FIFI_LEFT || SHIELD_FIFI_RIGHT
 
 config ZMK_SPLIT
     default y
