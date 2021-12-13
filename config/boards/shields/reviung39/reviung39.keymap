@@ -33,9 +33,9 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(RET) |
 //                       |     |     | RET | ADJ |     |
                         bindings = <
-   &trans &kp GRAVE &kp CARET &kp AT   &kp DLLR &kp TILDE      &kp AMPS  &kp EXCL &kp PIPE  &kp UNDER &kp HASH  &kp DEL
-   &trans &kp BSLH  &kp LBKT  &kp LBRC &kp LPAR &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
-   &trans &kp ESC   &kp LGUI  &kp LALT &kp CLCK &kp DQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
+      &kp TAB &kp GRAVE &kp CARET &kp AT    &kp DLLR  &kp TILDE   &kp AMPS &kp EXCL  &kp PIPE     &kp UNDER   &kp HASH &kp BSPC
+      &kp GRAVE &kp FSLH  &kp LBKT  &kp LBRC  &kp LPAR  &kp EQUAL   &kp STAR &kp RPAR  &kp RBRC     &kp RBKT    &kp BSLH &kp GRAVE
+      &kp LSHFT &kp LSHFT &kp QMARK &kp PLUS  &kp PRCNT &trans      &trans   &trans    &kp MINUS    &trans      &kp LGUI &kp GRAVE
                                  &mo 3      &kp RET       &trans        
                         >;
                 };
