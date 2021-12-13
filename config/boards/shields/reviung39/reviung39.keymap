@@ -22,7 +22,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI    &kp BSPC
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mt LGUI RET
-                        &mo 2  &kp SPACE &mo 1
+                        &mt 2 SPACE  &kp SPACE &mt 1 SPACE
                         >;
                 };
 
@@ -36,7 +36,7 @@
    &trans &kp GRAVE &kp CARET &kp AT   &kp DLLR &kp TILDE      &kp AMPS  &kp EXCL &kp PIPE  &kp UNDER &kp HASH  &kp DEL
    &trans &kp BSLH  &kp LBKT  &kp LBRC &kp LPAR &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
    &trans &kp ESC   &kp LGUI  &kp LALT &kp CLCK &kp DQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
-                                 &mo 3      &kp SPACE       &trans        
+                                 &mo 3      &kp RET       &trans        
                         >;
                 };
 
@@ -50,7 +50,7 @@
       &kp TAB    &trans &kp LG(N1)   &kp LG(N2)     &kp LG(N3)    &trans      &kp PLUS  &kp N7    &kp N8     &kp N9   &kp FSLH &kp BSPC
       &trans     &trans &kp LG(N4)   &kp LG(N5)     &kp LG(N6)    &trans      &kp N0    &kp N4    &kp N5     &kp N6   &kp DOT  &trans
       &kp LSHFT  &trans &kp LG(N7)   &kp LG(N8)     &kp LG(N9)    &trans      &kp MINUS &kp N1    &kp N2     &kp N3   &kp STAR &trans
-                                     &trans         &kp SPACE         &mo 3   
+                                     &trans         &kp RET         &mo 3   
                         >;
                 };
 
