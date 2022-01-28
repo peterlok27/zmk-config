@@ -36,7 +36,7 @@
                         bindings = <
       &kp TAB &kp GRAVE &kp CARET &kp AT    &kp DLLR  &kp TILDE   &kp AMPS &kp EXCL  &kp PIPE     &kp UNDER   &kp HASH &kp BSPC
       &kp GRAVE &kp FSLH  &kp LBKT  &kp LBRC  &kp LPAR  &kp EQUAL   &kp STAR &kp RPAR  &kp RBRC     &kp RBKT    &kp BSLH &kp GRAVE
-      &kp LSHFT &kp LSHFT &kp QMARK &kp PLUS  &kp PRCNT &trans      &trans   &trans    &kp MINUS    &trans      &kp LGUI &kp GRAVE
+      &kp LSHFT &kp ESC &kp QMARK &kp PLUS  &kp PRCNT &trans      &trans   &trans    &kp MINUS    &trans      &kp LGUI &kp GRAVE
                                  &mo 3      &kp RET       &trans        
                         >;
                 };
