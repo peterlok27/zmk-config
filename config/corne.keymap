@@ -61,9 +61,23 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
       &kp TAB    &trans &kp LG(N1)   &kp LG(N2)     &kp LG(N3)    &trans      &kp PLUS  &kp N7    &kp N8     &kp N9   &kp FSLH &kp BSPC
-      &trans     &trans &kp LG(N4)   &kp LG(N5)     &kp LG(N6)    &trans      &kp N0    &kp N4    &kp N5     &kp N6   &kp DOT  &trans
+      &tog 4     &trans &kp LG(N4)   &kp LG(N5)     &kp LG(N6)    &trans      &kp N0    &kp N4    &kp N5     &kp N6   &kp DOT  &trans
       &kp LSHFT  &trans &kp LG(N7)   &kp LG(N8)     &kp LG(N9)    &trans      &kp MINUS &kp N1    &kp N2     &kp N3   &kp STAR &trans
                                      &trans         &none         &kp SPACE   &kp EQUAL &kp RET   &kp BSPC
+                        >;
+                };
+
+                qwerty_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp TAB   &kp Q &kp W    &kp E   &kp R &kp T &kp Y       &kp U    &kp I       &kp O   &kp P    &kp BSPC
+   &kp LCTRL &kp A &kp S    &kp D    &kp F &kp G &kp H       &kp J    &kp K       &kp L   &kp SEMI &kp SQT
+   &kp LSHFT &kp Z &kp X    &kp C    &kp V &kp B &kp N       &kp M    &kp COMMA   &kp DOT &kp FSLH &kp LGUI
+                            &kp LGUI &lt 3 SPACE &lt 1 RET   &kp BSPC &lt 2 SPACE &kp RALT
                         >;
                 };
         };
